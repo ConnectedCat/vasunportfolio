@@ -1,0 +1,15 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.row img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
