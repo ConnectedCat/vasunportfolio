@@ -14,12 +14,6 @@ section {
   margin-top: 140px;
 }
 
-@media (max-width: 992px) {
-  section {
-    margin-top: 260px;
-  }
-}
-
 .row img {
   max-width: 100%;
   margin-bottom: 30px;
@@ -27,4 +21,27 @@ section {
 
 #about h6 {
   font-size: 14px;
+}
+
+
+@media (max-width: 1200px) {
+  body, #about h6 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  body, #about h6 {
+    font-size: 12px;
+  }
+
+  section {
+    margin-top: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  body, #about h6 {
+    font-size: 11px;
+  }
 }

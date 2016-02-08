@@ -24,10 +24,10 @@
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-6">
-                <img src="projects/decadesball/lq-decades-ball-053.jpg">
+                <img src="projects/nautilus/nautilus-061.jpg">
               </div>
               <div class="col-md-6">
-                <img src="projects/nautilus/nautilus-061.jpg">
+                <img src="projects/mommydidnt/VPachisia_1002_Image1.jpg">
               </div>
             </div>
             <div class="row">
@@ -37,7 +37,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <img src="projects/swirl/abstract_poster.jpg">
+            <img src="projects/timepass/Timepass3.jpg">
           </div>
         </div>
 
@@ -54,7 +54,7 @@
           <div class="col-md-3">
             <div class="row">
               <div class="col-md-10 col-md-offset-2">
-                <img src="projects/mommydidnt/VPachisia_1002_Image1.jpg">
+                <img src="projects/swirl/abstract_poster.jpg">
               </div>
             </div>
             <div class="row">
@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="col-md-5">
-            <img src="projects/timepass/Timepass2.jpg">
+            <img src="projects/scott/scott4.jpg">
           </div>
           <div class="col-md-4">
             <img src="projects/youarehere/youarehere.jpg">

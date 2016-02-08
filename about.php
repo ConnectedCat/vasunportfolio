@@ -12,14 +12,14 @@
               Office of Paul Sahre
             </p>
 
-            <p>-</p>
-            <p>2016, MFA, Cranbrook Academy of Art, 2D<br>
+            <br/>
+            <p>2016, MFA, Cranbrook Academy of Art, 2D<br class="hidden-xs"/>
               Elective in Sculpture
             </p>
-            <p>2009, AAS, Parsons, The New School for Design<br/>
+            <p>2009, AAS, Parsons, The New School for Design<span class="hidden-sm hidden-md hidden-lg">, </span><br class="hidden-xs"/>
               Graphic Design
             </p>
-            <p>2004, BSc, University of Tennessee, Knoxville<br/>
+            <p>2004, BSc, University of Tennessee, Knoxville<span class="hidden-sm hidden-md hidden-lg">, </span><br class="hidden-xs"/>
               Advertising
             </p>
             <br/>
