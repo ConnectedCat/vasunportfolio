@@ -4,10 +4,15 @@
 <div class="container">
   <section>
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-3">
+        <div class="project-text">
+          <p>hahahaha</p>
+          <p>100 pages, newsprint, pigment, pumice dust, urethane</p>
+        </div>
+      </div>
+      <div class="col-xs-8 col-xs-offset-1">
         <img src="projects/hahaha/hahaha1.jpg" class="img-responsive center-block">
         <img src="projects/hahaha/hahaha2.jpg" class="img-responsive center-block">
-        <img src="projects/hahaha/hahaha3.jpg" class="img-responsive center-block">
         <img src="projects/hahaha/hahaha4.jpg" class="img-responsive center-block">
         <img src="projects/hahaha/hahaha5.jpg" class="img-responsive center-block">
         <img src="projects/hahaha/hahaha6.jpg" class="img-responsive center-block">

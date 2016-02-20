@@ -27,7 +27,7 @@
                 <a href="nautilus.php"><img src="projects/nautilus/nautilus-061.jpg"></a>
               </div>
               <div class="col-md-6">
-                <a href="mommydidnt.php"><img src="projects/mommydidnt/VPachisia_1002_Image1.jpg"></a>
+                <a href="mommydidnt.php"><img src="projects/mommydidnt/Mommy_didnt.jpg"></a>
               </div>
             </div>
             <div class="row">
@@ -71,7 +71,7 @@
           </div>
         </div>
       </section>
-
+    <?php include_once('footer.php'); ?>
     </div>
   </body>
 </html>
