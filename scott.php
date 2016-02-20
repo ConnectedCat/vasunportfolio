@@ -4,12 +4,12 @@
 <div class="container">
   <section>
     <div class="row">
-      <div class="col-xs-3">
+      <div class="col-xs-12 col-md-3 project-text">
         <p>between a rock and a romantic place, 2015</p>
         <p>(artist book for scott stibich)</p>
         <p>6.5” x 9.25”</p>
       </div>
-      <div class="col-xs-8 col-xs-offset-1">
+      <div class="col-xs-12 col-md-8 col-md-offset-4">
         <img src="projects/scott/scott1.jpg" class="img-responsive center-block">
         <img src="projects/scott/scott2.jpg" class="img-responsive center-block">
         <img src="projects/scott/scott3.jpg" class="img-responsive center-block">
@@ -19,4 +19,5 @@
       </div>
     </div>
   </section>
+  <?php include_once('footer.php'); ?>
 </div>

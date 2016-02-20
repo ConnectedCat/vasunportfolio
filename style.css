@@ -35,6 +35,11 @@ section {
 #about h6 {
   font-size: 14px;
 }
+@media (min-width: 992px) {
+  .project-text {
+    position: fixed;
+  }
+}
 
 @media (max-width: 1200px) {
   body, #about h6 {
