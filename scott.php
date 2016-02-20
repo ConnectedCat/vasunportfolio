@@ -5,6 +5,9 @@
   <section>
     <div class="row">
       <div class="col-xs-3">
+        <p>between a rock and a romantic place, 2015</p>
+        <p>(artist book for scott stibich)</p>
+        <p>6.5” x 9.25”</p>
       </div>
       <div class="col-xs-8 col-xs-offset-1">
         <img src="projects/scott/scott1.jpg" class="img-responsive center-block">

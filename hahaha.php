@@ -6,8 +6,10 @@
     <div class="row">
       <div class="col-xs-3">
         <div class="project-text">
-          <p>hahahaha</p>
+          <p>hahaha, 2015</p>
+          <p>4” x 5.25”</p>
           <p>100 pages, newsprint, pigment, pumice dust, urethane</p>
+          <p>photography by harrison moenich</p>
         </div>
       </div>
       <div class="col-xs-8 col-xs-offset-1">

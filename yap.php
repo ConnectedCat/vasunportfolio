@@ -5,6 +5,10 @@
   <section>
     <div class="row">
       <div class="col-xs-3">
+        <p>young architects program 2013</p>
+        <p>title wall at MoMA</p>
+        <p>designed at the MoMA Design Studio, creative direction by hsien-yin ingrid chou, photography by martin seck,</p>
+        <p>production by t.e. black studios &amp; paulette giguere</p>
       </div>
       <div class="col-xs-8 col-xs-offset-1">
         <img src="projects/yap/YAP_2013_4.jpg" alt="Slide1" class="img-responsive center-block">
