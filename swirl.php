@@ -5,7 +5,7 @@
   <section>
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
-        <p>untitled, 2015</p>
+        <p>untitled (swirl), 2015</p>
         <p>18.5" x 25.5"<br/>
           silkscreen on digital print<br/>
           (also installed by Erik Brandt on <a href="http://ficciones-typografika.tumblr.com/post/123958384647/vasundhara-pachisia-ficciones-typografika-917" target="_blank">Ficciones Typografika</a>)</p>

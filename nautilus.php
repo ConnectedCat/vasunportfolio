@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
         <p>nautilus, 2012<br/>
-        identity &amp; branding</p>
+        (identity &amp; branding)</p>
         <p>designed at point five design studio, NY<br/>
           photography by point five design</p>
       </div>
