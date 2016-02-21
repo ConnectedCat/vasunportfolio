@@ -13,7 +13,7 @@ var adjProjectText = function(){
       $('.project-text').width(($('.row').width()-30)/4);
     }
     else {
-      $('.project-text').width('100%');
+      $('.project-text').width(($('.row').width()-30));
     }
   }
 }
