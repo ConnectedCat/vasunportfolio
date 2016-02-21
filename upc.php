@@ -6,7 +6,8 @@
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
         <p>until perfect comes, 2015</p>
-        <p>27" x 40" custom typeface (work in progress), damaged Holga photo, archival inkjet print</p>
+        <p>27" x 40" custom typeface (work in progress),<br/>
+            damaged Holga photo, archival inkjet print</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">
         <img src="projects/upc/type_in_progress.jpg" class="img-responsive center-block">

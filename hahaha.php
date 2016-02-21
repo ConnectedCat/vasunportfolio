@@ -6,9 +6,9 @@
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
           <p>hahaha, 2015</p>
-          <p>4” x 5.25”</p>
-          <p>100 pages, newsprint, pigment, pumice dust, urethane</p>
-          <p>photography by harrison moenich</p>
+          <p>4” x 5.25”<br/>
+          100 pages, newsprint, pigment, pumice dust, urethane<br/>
+          photography by harrison moenich</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">
         <img src="projects/hahaha/hahaha1.jpg" class="img-responsive center-block">
