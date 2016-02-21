@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <p><a href="index.php">Vasun Pachisia</a></p>
-        <p><a href="about.php">About</a><p>
+        <p><a href="index.php">The Work of Vasun Pachisia</a></p>
+        <p><a href="about.php">CV</a><p>
       </div>
       <div class="col-xs-12 col-md-4">
         <p>Brooklyn, NY</p>

@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="col-md-5">
-            <a href="scott.php"><img src="projects/scott/scott4.jpg"></a>
+            <a href="scott.php"><img src="projects/scott/scott3.jpg"></a>
           </div>
           <div class="col-md-4">
             <a href="youarehere.php"><img src="projects/youarehere/youarehere.jpg"></a>

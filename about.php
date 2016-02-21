@@ -5,11 +5,11 @@
         <div class="row">
           <div class="col-md-10">
 
-            <p>Ralph Applebaum Associates<br>
-              MoMA Design Studio<br>
-              Point Five Design<br>
-              Maharam/A4 Studio<br>
-              Office of Paul Sahre
+            <p><a href="http://www.raany.com" target="_blank">Ralph Applebaum Associates</a><br>
+              <a href="http://momadesignstudio.org" target="_blank">MoMA Design Studio</a><br>
+              <a href="http://point5.com" target="_blank">Point Five Design</a><br>
+              <a href="http://maharam.com" target="_blank">Maharam/A4 Studio</a><br>
+              <a href="http://paulsahre.com" target="_blank">Office of Paul Sahre</a>
             </p>
 
             <br/>
