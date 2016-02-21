@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <p><a href="index.php">The Work of Vasun Pachisia</a></p>
-        <p><a href="about.php">CV</a><p>
+        <p><a href="index.php">the work of vasun pachisia</a></p>
+        <p><a href="about.php">cv</a><p>
       </div>
       <div class="col-xs-12 col-md-4">
-        <p>Brooklyn, NY</p>
-        <p>Current Location: <br/>
-          Detroit, Michigan</p>
+        <p>brooklyn, ny</p>
+        <p>current location: <br/>
+          detroit, michigan</p>
       </div>
       <div class="col-xs-12 col-md-4">
         <p><a href="mailto:vasunpachisia@gmail.com">vasunpachisia@gmail.com</a></p>

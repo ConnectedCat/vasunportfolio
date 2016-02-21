@@ -5,9 +5,9 @@
   <section>
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
-        <p>nautilus, 2012</p>
-        <p>identity &amp; branding<br/>
-          designed at point five design studio, NY<br/>
+        <p>nautilus, 2012<br/>
+        identity &amp; branding</p>
+        <p>designed at point five design studio, NY<br/>
           photography by point five design</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">

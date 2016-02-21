@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
         <p>canadian museum for human rights, 2014<br/>
-          various exhibition graphics<br/></p>
+          (various exhibition graphics)</p>
         <p>designed at the Ralph Applebaum Associates,  creative direction by christiaan kuypers, photography by canadian museum for human rights</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">

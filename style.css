@@ -39,6 +39,11 @@ section {
 #about h6 {
   font-size: 14px;
 }
+
+footer {
+  text-transform: lowercase;
+}
+
 @media (min-width: 992px) {
   .project-text {
     position: fixed;

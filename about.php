@@ -24,7 +24,7 @@
             </p>
             <br/>
 
-            <h6>Honors &amp; Exhibitions</h6>
+            <h6>honors &amp; exhibitions</h6>
 
 
 

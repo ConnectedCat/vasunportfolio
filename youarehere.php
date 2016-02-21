@@ -11,7 +11,7 @@
           (also installed by Erik Brandt on <a href="http://ficciones-typografika.tumblr.com/post/133324121124/ficciones-typografika-1057-1059-24x36" target="_blank">Ficciones Typografika</a>)</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">
-        <img src="projects/youarehere/youarehere.jpg" class="img-responsive center-block">
+        <img src="projects/youarehere/youarehere1.jpg" class="img-responsive center-block">
         <img src="projects/youarehere/youarehere.jpg" class="img-responsive center-block">
       </div>
     </div>
