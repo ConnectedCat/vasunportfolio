@@ -59,7 +59,7 @@
             </div>
             <div class="row">
               <div class="col-md-10 col-md-offset-2">
-                <a href="paradiselost.php"><img src="projects/paradiselost/paradiselost1.jpg"></a>
+                <a href="blue.php"><img src="projects/blue/posters2.jpg"></a>
               </div>
             </div>
           </div>

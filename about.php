@@ -16,12 +16,8 @@
             <p>2016, MFA, Cranbrook Academy of Art, 2D<br class="hidden-xs"/>
               Elective in Sculpture
             </p>
-            <p>2009, AAS, Parsons, The New School for Design<span class="hidden-sm hidden-md hidden-lg">, </span><br class="hidden-xs"/>
-              Graphic Design
-            </p>
-            <p>2004, BSc, University of Tennessee, Knoxville<span class="hidden-sm hidden-md hidden-lg">, </span><br class="hidden-xs"/>
-              Advertising
-            </p>
+            <p>2009, AAS, Parsons, The New School for Design</p>
+            <p>2004, BSc, University of Tennessee, Knoxville</p>
             <br/>
 
             <h6>honors &amp; exhibitions</h6>
