@@ -5,9 +5,9 @@
   <section>
     <div class="row">
       <div class="col-xs-12 col-md-3 project-text">
-        <p>untitled (Loja), 2015</p>
+        <p>untitled (loja), 2015</p>
         <p>265 lbs horse chestnuts<br class="hidden-xs"/>
-        (collected from Cranbrook Academy of Art campus, drilled and assembled), bodies, archival inkjet print<br/>
+        (collected from cranbrook academy of art campus, drilled and assembled), bodies, archival inkjet print<br/>
         photography by harrison moenich</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">

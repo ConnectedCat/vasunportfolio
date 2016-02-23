@@ -5,7 +5,9 @@
         <div class="row">
           <div class="col-md-10">
 
-            <p><a href="http://www.raany.com" target="_blank">Ralph Applebaum Associates</a><br>
+            <p>
+              <a href="http://redantler.com/" target="_blank">Red Antler</a><br>
+              <a href="http://www.raany.com" target="_blank">Ralph Applebaum Associates</a><br>
               <a href="http://momadesignstudio.org" target="_blank">MoMA Design Studio</a><br>
               <a href="http://point5.com" target="_blank">Point Five Design</a><br>
               <a href="http://maharam.com" target="_blank">Maharam/A4 Studio</a><br>

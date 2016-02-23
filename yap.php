@@ -7,7 +7,7 @@
       <div class="col-xs-12 col-md-3 project-text">
         <p>young architects program 2013<br/>
           (title wall at MoMA)</p>
-        <p>designed at the MoMA Design Studio, creative direction by hsien-yin ingrid chou, photography by martin seck, production by t.e. black studios &amp; paulette giguere</p>
+        <p>designed at the MoMA design studio,  creative direction by hsien-yin ingrid chou, photography by martin seck, production by t.e. black studios &amp; paulette giguere</p>
       </div>
       <div class="col-xs-12 col-md-8 col-md-offset-4">
         <img src="projects/yap/YAP_2013_4.jpg" alt="Slide1" class="img-responsive center-block">
