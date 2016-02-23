@@ -1,7 +1,6 @@
 $(document).ready(function(){
-  $(window).load(function(){
-    adjProjectText();
-  });
+  adjProjectText();
+  
   $(window).resize(function(){
     adjProjectText();
   });
