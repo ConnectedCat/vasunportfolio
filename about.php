@@ -5,13 +5,29 @@
         <div class="row">
           <div class="col-md-10">
 
+            <p><a href="http://redantler.com/" target="_blank">Red Antler</a><br/>
+                freelance designer, 2015<br/>
+                various branding and identity for start-ups
+            </p>
+            <p><a href="http://www.raany.com" target="_blank">Ralph Appelbaum Associates</a><br/>
+              freelance designer, 2013-2014<br/>
+              various exhibition graphics for the canadian museum for human rights
+            </p>
+            <p><a href="http://momadesignstudio.org" target="_blank">MoMA Design Studio</a><br/>
+              freelance designer, 2013<br/>
+              various exhibition graphics &amp; print collateral for the MoMA
+            </p>
+            <p><a href="http://point5.com" target="_blank">Point Five Design</a><br/>
+              senior designer, 2012-2013<br/>
+              various branding and publication design
+            </p>
+            <p><a href="http://maharam.com" target="_blank">Maharam/A4 Studio</a><br/>
+              junior designer, 2010-2012<br/>
+              various print collateral &amp; production for Maharam
+            </p>
             <p>
-              <a href="http://redantler.com/" target="_blank">Red Antler</a><br>
-              <a href="http://www.raany.com" target="_blank">Ralph Applebaum Associates</a><br>
-              <a href="http://momadesignstudio.org" target="_blank">MoMA Design Studio</a><br>
-              <a href="http://point5.com" target="_blank">Point Five Design</a><br>
-              <a href="http://maharam.com" target="_blank">Maharam/A4 Studio</a><br>
-              <a href="http://paulsahre.com" target="_blank">Office of Paul Sahre</a>
+              <a href="http://paulsahre.com" target="_blank">Office of Paul Sahre</a><br/>
+              graphic design intern, 2009
             </p>
 
             <br/>
