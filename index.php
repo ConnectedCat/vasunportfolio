@@ -55,12 +55,12 @@
         <div class="row">
           <div class="col-md-3">
             <div class="row">
-              <div class="col-md-10 col-md-offset-2">
+              <div class="col-md-12">
                 <a href="swirl.php"><img src="projects/swirl/abstract_poster.jpg"></a>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-10 col-md-offset-2">
+              <div class="col-md-12">
                 <a href="humanrights.php"><img src="projects/humanrights/RA_HRM_02.jpg"></a>
               </div>
             </div>
