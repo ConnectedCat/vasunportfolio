@@ -4,7 +4,7 @@
       <section>
         <div class="row">
           <div class="col-md-4">
-            <a href="hahaha.php"><img src="projects/hahaha/hahaha3.jpg"></a>
+            <a href="blue.php"><img src="projects/blue/Frame.jpg"></a>
           </div>
           <div class="col-md-8">
             <a href="upc.php"><img src="projects/upc/pachisia_vasundhara_3.jpg"></a>
@@ -16,7 +16,8 @@
             <a href="selfmademan.php"><img src="projects/selfmademan/ursula1.jpg"></a>
           </div>
           <div class="col-md-5">
-            <a href="chestnuts.php"><img src="projects/chestnuts/chestnuts8.jpg"></a>
+            <a href="hahaha.php"><img src="projects/hahaha/hahaha3.jpg"></a>
+
           </div>
         </div>
 
@@ -46,7 +47,8 @@
             <a href="cutnpaste.php"><img src="projects/cutnpaste/CutNPaste_05.jpg"></a>
           </div>
           <div class="col-md-4">
-            <a href="humanrights.php"><img src="projects/humanrights/RA_HRM_02.jpg"></a>
+            <a href="scott.php"><img src="projects/scott/scott3.jpg"></a>
+
           </div>
         </div>
 
@@ -59,12 +61,12 @@
             </div>
             <div class="row">
               <div class="col-md-10 col-md-offset-2">
-                <a href="blue.php"><img src="projects/blue/posters2.jpg"></a>
+                <a href="humanrights.php"><img src="projects/humanrights/RA_HRM_02.jpg"></a>
               </div>
             </div>
           </div>
           <div class="col-md-5">
-            <a href="scott.php"><img src="projects/scott/scott3.jpg"></a>
+            <a href="chestnuts.php"><img src="projects/chestnuts/chestnuts8.jpg"></a>
           </div>
           <div class="col-md-4">
             <a href="youarehere.php"><img src="projects/youarehere/youarehere.jpg"></a>
