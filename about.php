@@ -34,14 +34,18 @@
             <p>2016, MFA, Cranbrook Academy of Art, 2D<br class="hidden-xs"/>
               Elective in Sculpture
             </p>
-            <p>2009, AAS, Parsons, The New School for Design</p>
-            <p>2004, BSc, University of Tennessee, Knoxville</p>
+            <p>2009, AAS, Parsons the New School for Design, Graphic Design</p>
+            <p>2004, BSc, University of Tennessee, Knoxville, Advertising</p>
             <br/>
-
+            <h6>teaching</h6>
+            <p>April 2016, Guest critic, Lawrence Tech University, Senior Portfolio</p>
+            <p>December 2015, Guest lecturer, Lawrence Tech University, Graphic Design</p>
+            <br/>
             <h6>honors &amp; exhibitions</h6>
 
-
-
+            <p>2016 Graduate Degree Exhibition of Cranbrook Academy of Art,<br>
+              Cranbrook Academy of Art, Bloomfield Hills
+            </p>
             <p>2016, Worship, Forum Gallery,<br/>
               Cranbrook Academy of Art, Bloomfield Hills
             </p>

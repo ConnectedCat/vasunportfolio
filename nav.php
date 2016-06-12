@@ -6,9 +6,7 @@
         <p><a href="about.php">cv</a><p>
       </div>
       <div class="col-xs-12 col-md-4">
-        <p>brooklyn, ny</p>
-        <p>current location: <br/>
-          detroit, michigan</p>
+        <p>typography, editorial, environmental<br> branding and identity, multimedia, installation</p>
       </div>
       <div class="col-xs-12 col-md-4">
         <p><a href="mailto:vasunpachisia@gmail.com">vasunpachisia@gmail.com</a></p>
