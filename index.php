@@ -4,7 +4,15 @@
       <section>
         <div class="row">
           <div class="col-md-4">
-            <a href="blue.php"><img src="projects/blue/Frame.jpg"></a>
+            <div class="row">
+              <div class="col-md-12">
+                <a href="blue.php"><img src="projects/blue/Frame.jpg"></a>
+              </div>
+              <div class="col-md-8 col-md-offset-4">
+                <a href="logan.php"><img src="projects/logan/logan_cover1.jpg" class="img-border"></a>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-8">
             <a href="upc.php"><img src="projects/upc/pachisia_vasundhara_3.jpg"></a>
@@ -17,7 +25,9 @@
           </div>
           <div class="col-md-5">
             <a href="hahaha.php"><img src="projects/hahaha/hahaha3.jpg"></a>
-
+          </div>
+          <div class="col-md-6">
+            <a href="listen.php"><img src="projects/listen/listen1.jpg"class="img-border"></a>
           </div>
         </div>
 
@@ -38,7 +48,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <a href="timepass.php"><img src="projects/timepass/Timepass3.jpg"></a>
+            <a href="timepass.php"><img src="projects/timepass/Timepass3.jpg" class="center-block"></a>
           </div>
         </div>
 
@@ -47,8 +57,7 @@
             <a href="cutnpaste.php"><img src="projects/cutnpaste/CutNPaste_05.jpg"></a>
           </div>
           <div class="col-md-4">
-            <a href="scott.php"><img src="projects/scott/scott3.jpg"></a>
-
+            <a href="stibich.php"><img src="projects/stibich/stibich_4.jpg" class="img-border"></a>
           </div>
         </div>
 
@@ -66,7 +75,14 @@
             </div>
           </div>
           <div class="col-md-5">
-            <a href="chestnuts.php"><img src="projects/chestnuts/chestnuts8.jpg"></a>
+            <div class="row">
+              <div class="col-md-12">
+                <a href="chestnuts.php"><img src="projects/chestnuts/chestnuts8.jpg"></a>
+              </div>
+              <div class="col-md-6">
+                <a href="adecker.php"><img src="projects/adecker/aaron_cover.jpg"></a>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
             <a href="youarehere.php"><img src="projects/youarehere/youarehere.jpg"></a>

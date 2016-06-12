@@ -32,6 +32,18 @@ section {
   margin-bottom: 30px;
 }
 
+img.img-border {
+  border: 1px solid #D3D3D3;
+}
+
+img.img-shadow {
+  box-shadow: #808080 1px 2px 8px;
+}
+
+img.type-cover {
+  max-width: 50%;
+}
+
 .embed-responsive {
   margin-bottom: 30px;
 }
@@ -45,15 +57,17 @@ footer {
   margin-top: 20px;
 }
 
-@media (min-width: 992px) {
-  .project-text {
-    position: fixed;
+/********** MEDIA QUERIES **********/
+
+@media (max-width: 768px) {
+  body, #about h6 {
+    font-size: 11px;
   }
 }
 
-@media (max-width: 1200px) {
-  body, #about h6 {
-    font-size: 13px;
+@media (min-width: 768px) {
+  img.type-cover {
+      float: right;
   }
 }
 
@@ -67,8 +81,14 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) {
+  .project-text {
+    position: fixed;
+  }
+}
+
+@media (max-width: 1200px) {
   body, #about h6 {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
