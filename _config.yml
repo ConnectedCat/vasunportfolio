@@ -26,6 +26,8 @@ permalink: /:title
 instagram_username: vasunpachisia
 
 # Build settings
+keep_files: 
+  - assets/
 markdown: kramdown
 theme: minima
 plugins:
