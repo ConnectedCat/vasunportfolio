@@ -1,7 +1,14 @@
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+<section id="site-footer" class="container">
+    <div class="row">
+        <div class="col-12">
+                <p>
+                    {% for post in site.posts %}
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        {% if post != site.posts.last %}
+                        ,&nbsp;
+                        {% endif %}
+                    {% endfor %}
+                </p>
+        </div>
+    </div>
+</section>

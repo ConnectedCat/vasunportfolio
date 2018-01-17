@@ -19,9 +19,13 @@
     <section class="container">
         {{ content }}
         <div class="row home-row">
+            <!-- {% assign shuffled_array = site.posts | shuffle %} -->
             {% for post in site.posts %}
             <div class="col-4">
-                <a href="{{ post.url }}"><img src="{{ post.image }}" class="img-fluid" /></a>
+                <a href="{{ post.url }}">
+                    <img src="{{ post.image }}" class="img-fluid" />
+                    <p>{{ post.title }}</p>
+                </a>
             </div>
             {% endfor %}
         </div>
