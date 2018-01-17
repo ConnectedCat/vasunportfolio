@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ site.description }}">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- 
+    <div class="gradient1 gradient1--left"></div>
+    <div class="gradient1 gradient1--right"></div>
+    <div class="gradient2 gradient2--left"></div>
+    <div class="gradient2 gradient2--right"></div> 
+    -->
+    {% include header.html %}
+    <section class="container">
+        {{ content }}
+        <div class="row home-row">
+            {% for post in site.posts %}
+            <div class="col-4">
+                <a href="{{ post.url }}"><img src="{{ post.image }}" class="img-fluid" /></a>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% include footer.html %}
+</body>
+
+</html>
