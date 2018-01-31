@@ -1,12 +1,12 @@
 body {
-  font-family: Andale Mono, Lucida Console, Courier, Monaco, monospace;
-  font-size: 13px;
+  font-family:  Andale Mono, Lucida Console, Courier, Monaco, monospace;
+  font-size:    13px;
 }
 
 a,
 a:hover,
 a:focus,
 a:active {
-  color: #333;
-  text-decoration: underline;
+  color:            $text-main;
+  text-decoration:  underline;
 }

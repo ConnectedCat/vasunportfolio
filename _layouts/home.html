@@ -9,27 +9,41 @@
 </head>
 
 <body>
-  <!-- 
-    <div class="gradient1 gradient1--left"></div>
-    <div class="gradient1 gradient1--right"></div>
-    <div class="gradient2 gradient2--left"></div>
-    <div class="gradient2 gradient2--right"></div> 
-    -->
   {% include header.html %}
   <section class="container">
     {{ content }}
     <div class="row home-row">
-      {% for post in site.posts %} 
-      <div class="col-4">
-        <a href="{{ post.url }}">
-          <img src="{{ post.image }}" class="img-fluid" />
-          <p>{{ post.title }}</p>
-        </a>
+      <div class="col-12">
+        
+        <div id="homePageCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            {% for post in site.posts %}         
+            <div class="carousel-item {% if post == site.posts.first %} active {% endif %}">
+                <a href="{{ post.url }}">
+                  <div class="carousel__imageholder w-100" style="background-image:url({{ post.image }})"></div>
+                  <!-- <img src="{{ post.image }}" class="d-block w-100" /> -->
+                  <p>{{ post.title }}</p>
+                </a>
+            </div>
+            {% endfor %}
+          </div>
+          <!-- carousel controls -->
+          <a class="carousel-control-prev" href="#homePageCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#homePageCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> <!-- end of #homePageCarousel -->
+
       </div>
-      {% endfor %}
     </div>
   </section>
   {% include footer.html %}
+  <script src="/scripts/vendor/bootstrap/util.js"></script>
+  <script src="/scripts/vendor/bootstrap/carousel.js"></script>
 </body>
 
 </html>

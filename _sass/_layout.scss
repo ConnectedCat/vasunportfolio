@@ -5,3 +5,19 @@
         margin-bottom: 15px;
     }
 }
+
+.carousel {
+  &__imageholder {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $background-carousel;
+    max-height: calc(100vh - 56px);
+
+    &:before {
+      padding-top: 100%;
+      content: "";
+	    display: block;
+    }
+  }
+}

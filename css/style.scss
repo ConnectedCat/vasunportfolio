@@ -8,67 +8,7 @@
 @import "typography";
 @import "layout";
 
-.gradient1{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    animation: opacityChange 20s linear infinite;
-    
-    &--right{
-        background: linear-gradient(to left, $pink1, $pink2);
-        
-    }
-
-    &--left{
-        background: linear-gradient(to right, $green1, $green2);
-    }
+body {
+  background-color: $background-main;
+  color:            $text-main;
 }
-
-.gradient2{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    animation: reverseOpacityChange 20s ease-in-out infinite;
-    
-    &--right{
-        background: linear-gradient(to left, $purple1, $purple2);
-        
-    }
-
-    &--left{
-        background: linear-gradient(to right, $blue1, $blue2);
-    }
-}
-
-@keyframes opacityChange {
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@keyframes reverseOpacityChange {
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
-}
-
-// @keyframes colorShiftRight {
-//     0%   {background: linear-gradient(to right, $pink1, $pink2);}
-//     25% {background: linear-gradient(to right, $red1, $red2);}
-//     50% {background: linear-gradient(to right, $orange1, $orange2);}
-//     75% {background: linear-gradient(to right, $yellow1, $yellow2);}
-//     100% {background: linear-gradient(to right, $pink1, $pink2);}
-// }
-
-// @keyframes colorShiftLeft {
-//     0%   {background: linear-gradient(to right, $green1, $green2);}
-//     25% {background: linear-gradient(to right, $blue1, $blue2);}
-//     50% {background: linear-gradient(to right, $navy1, $navy2);}
-//     75% {background: linear-gradient(to right, $purple1, $purple2);}
-//     100% {background: linear-gradient(to right, $green1, $green2);}
-// }
