@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="col-6">
    		<a href="/"><h1>{{ site.title }}</h1></a>
@@ -7,4 +7,25 @@
 			<a href="/about/"><h1>about</h1></a>
 	 </div>
   </div>
-</div>
+</div> -->
+
+<header>
+  <nav class="navbar">
+      <a class="navbar-brand" href="/">{{ site.title }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarCollapsable">
+        
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">{{ site.title }}</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/about/">about</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
