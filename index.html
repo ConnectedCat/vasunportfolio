@@ -9,22 +9,22 @@
 </head>
 
 <body>
-  <header class="container">
-  <nav class="row">
+    <header class="container">
+      <nav class="row">
         <div class="col-6">
           <a href="index.html" class="header-link float-left">
             <span class="animated-header-name-hindi">वसुनधारा</span><span class="animated-header-name-english">Vasundhara</span>
           </a>
-       </div>
-       <div class="col-6">
-         <a href="about.html" class="header-link float-right">
-          <span class="animated-header-about-hindi">अबाउट</span><span class="animated-header-about-english">About</span>
-        </a>
-      </div>
-    </nav>
-</header>
-  <section class="container">
-    
+        </div>
+        <div class="col-6">
+          <a href="about.html" class="header-link float-right">
+            <span class="animated-header-about-hindi">अबाउट</span><span class="animated-header-about-english">About</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+  <section class="container">  
     <div class="row home-row">
       <div class="col-12">
         
@@ -96,6 +96,8 @@
         if(imageToLoadIndex < 1){
           imageToLoadIndex = carouselItems;
         }
+
+        /// TODO: load video from https://vimeo.com/162983623 for one of the frames
         
         $(modifyThisSlide).find('.carousel__imageholder').css({
           'background-image': 'url(assets/images/Image' + imageToLoadIndex + '.jpg)'
