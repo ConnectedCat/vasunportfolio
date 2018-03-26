@@ -4,42 +4,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="A designer and educator with a broad array of collaborators  in the sectors of architecture, culture, non-profit, museum and academia.">
-  <title>वसुनधारा</title>
+  <title>Vasun Pachisia</title>
+  <link rel="shortcut icon" href="vasunfavicon.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="container">
-      <nav class="row">
-        <div class="col-6">
-          <a href="index.html" class="header-link float-left">
-            <span class="animated-header-name-hindi">वसुनधारा</span><span class="animated-header-name-english">Vasundhara</span>
-          </a>
-        </div>
-        <div class="col-6">
-          <a href="about.html" class="header-link float-right">
-            <span class="animated-header-about-hindi">अबाउट</span><span class="animated-header-about-english">About</span>
-          </a>
-        </div>
-      </nav>
-    </header>
+  <header class="container">
+    <nav class="row">
+      <div class="col-6">
+        <!-- <a href="index.html" class="header-link float-left"> -->
+        <a href="index.html">
+          <!-- <span class="animated-header-name-hindi">वसुनधारा</span> -->
+          <span >वसुनधारा</span>
+          <!-- <span class="animated-header-name-english">Vasundhara</span> -->
+        </a>
+      </div>
+      
+      <div class="col-6">
+        <!-- <a href="about.html" class="header-link float-right"> -->
+        <a href="about.html">
+          <!-- <span class="animated-header-about-hindi">अबाउट</span> -->
+          <span class="float-right">अबाउट</span>
+          <!-- <span class="animated-header-about-english">About</span> -->
+        </a>
+      </div>
+    </nav>
+  </header>
 
   <section class="container">  
     <div class="row home-row">
       <div class="col-12">
         
-        <div id="homePageCarousel" class="carousel slide" data-ride="false" data-items="45">
+        <div id="homePageCarousel" class="carousel slide" data-ride="false" data-items="47">
           <div class="carousel-inner">
-            <div class="carousel-item" data-index="45">
-              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image45.jpg)"></div>
+            <div class="carousel-item" data-index="47">
+              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image45.png)"></div>
             </div>
                      
             <div class="carousel-item active" data-index="1">
-              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image1.jpg)"></div>
+              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image1.png)"></div>
             </div>
 
             <div class="carousel-item" data-index="2">
-              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image2.jpg)"></div>
+              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image2.png)"></div>
             </div>
           </div>
           <!-- carousel controls -->
@@ -55,6 +63,10 @@
 
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-12 slide-counter"></div>
+    </div>
   </section>
   
   <!-- scripts -->
@@ -69,6 +81,8 @@
   <script>
     $(document).ready(function(){
       var carouselItems = $('.carousel').data('items');
+      
+      $('.slide-counter').text("1 of " + carouselItems);
 
       var lazyLoad = function(e){
         var modifyThisSlide, imageToLoadIndex, nextSlideIndex;
@@ -97,11 +111,34 @@
           imageToLoadIndex = carouselItems;
         }
 
-        /// TODO: load video from https://vimeo.com/162983623 for one of the frames
+        /// TODO: load video from https://vimeo.com/162983623 for frame 14
+        /// TODO: load video from https://vimeo.com/121959366 for frame 45
+        if(imageToLoadIndex == 14){
+          $(modifyThisSlide).find('.carousel__imageholder').css({
+            'display': 'none',
+          });
+          if(!$(modifyThisSlide).find('.embed-responsive').length){
+            $(modifyThisSlide).append('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/162983623?autoplay=1&loop=1"></iframe></div>');
+          }
+        } 
+        else if (imageToLoadIndex == 45){
+          $(modifyThisSlide).find('.carousel__imageholder').css({
+            'display': 'none',
+          });
+          if(!$(modifyThisSlide).find('.embed-responsive').length){
+            $(modifyThisSlide).append('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/121959366?autoplay=1&loop=1"></iframe></div>');
+          }
+        }
+        else {
+          $('.embed-responsive', modifyThisSlide).remove();
+          $(modifyThisSlide).find('.carousel__imageholder').css({
+            'display': 'block',
+            'background-image': 'url(assets/images/Image' + imageToLoadIndex + '.png)'
+          });
+        }
+
+        $('.slide-counter').text($($('.carousel-item')[e.to]).data('index') + " of " + carouselItems);
         
-        $(modifyThisSlide).find('.carousel__imageholder').css({
-          'background-image': 'url(assets/images/Image' + imageToLoadIndex + '.jpg)'
-        });
         $(modifyThisSlide).data('index', imageToLoadIndex);
         $(modifyThisSlide).attr('data-index', imageToLoadIndex);
       }

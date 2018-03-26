@@ -1,3 +1,8 @@
+header {
+  position: sticky;
+  top: 0px;
+}
+
 .home-row {
     align-items: center;
     margin-top: 40px;
@@ -8,7 +13,12 @@
     }
 }
 
+.slide-counter {
+  align-self: flex-end;
+}
+
 .carousel {
+  .embed-responsive,
   &__imageholder {
     background-position: center;
     background-repeat: no-repeat;
@@ -26,4 +36,15 @@
   .carousel-control-prev, .carousel-control-next {
     width: 50%;
   }
+
+  .carousel-control-prev {
+    cursor: url(../assets/icons/sideCursorW.png), w-resize;
+  }
+  .carousel-control-next {
+    cursor: url(../assets/icons/sideCursorE.png), e-resize;
+  }
+}
+
+.about-section {
+  padding-top: 90px;
 }

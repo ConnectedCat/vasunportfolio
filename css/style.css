@@ -5867,9 +5867,15 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+@font-face {
+  font-family: 'andale_monoregular';
+  src: url("../assets/fonts/andale_mono-webfont.woff2") format("woff2"), url("../assets/fonts/andale_mono-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 header {
   font-family: Khand,Courier,Monaco,monospace;
-  font-size: 32px; }
+  font-size: 50px; }
   header a,
   header a:hover,
   header a:focus,
@@ -5877,15 +5883,22 @@ header {
     text-decoration: none; }
 
 body {
-  font-family: Andale Mono,Lucida Console,Courier,Monaco,monospace;
-  font-size: 9px; }
+  font-family: 'andale_monoregular',Lucida Console,Courier,Monaco,monospace;
+  font-size: 13px; }
 
 a,
 a:hover,
 a:focus,
 a:active {
-  color: #efefef;
+  color: #000000;
   text-decoration: underline; }
+
+.slide-counter {
+  text-align: right; }
+
+header {
+  position: sticky;
+  top: 0px; }
 
 .home-row {
   align-items: center;
@@ -5894,13 +5907,16 @@ a:active {
   .home-row img {
     margin-bottom: 15px; }
 
-.carousel__imageholder {
+.slide-counter {
+  align-self: flex-end; }
+
+.carousel .embed-responsive, .carousel__imageholder {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #111111;
+  background-color: transparent;
   max-height: calc(100vh - 56px); }
-  .carousel__imageholder:before {
+  .carousel .embed-responsive:before, .carousel__imageholder:before {
     padding-top: 100%;
     content: "";
     display: block; }
@@ -5908,9 +5924,18 @@ a:active {
 .carousel .carousel-control-prev, .carousel .carousel-control-next {
   width: 50%; }
 
+.carousel .carousel-control-prev {
+  cursor: url(../assets/icons/sideCursorW.png), w-resize; }
+
+.carousel .carousel-control-next {
+  cursor: url(../assets/icons/sideCursorE.png), e-resize; }
+
+.about-section {
+  padding-top: 90px; }
+
 body {
-  background-color: #111111;
-  color: #efefef; }
+  background-color: #ffffff;
+  color: #000000; }
 
 .header-link {
   position: relative; }
@@ -5918,7 +5943,6 @@ body {
     position: absolute; }
 
 .animated-header-name-hindi {
-  animation: header-animation-name-hindi  4s infinite;
   position: absolute;
   left: 0; }
 
@@ -5934,7 +5958,6 @@ body {
     visibility: hidden; } }
 
 .animated-header-name-english {
-  animation: header-animation-name-english  4s infinite;
   position: absolute;
   left: 0; }
 
@@ -5950,7 +5973,6 @@ body {
     visibility: visible; } }
 
 .animated-header-about-hindi {
-  animation: header-animation-about-hindi  4s infinite;
   position: absolute;
   right: 0; }
 
@@ -5966,7 +5988,6 @@ body {
     visibility: visible; } }
 
 .animated-header-about-english {
-  animation: header-animation-about-english 4s infinite;
   position: absolute;
   right: 0; }
 
