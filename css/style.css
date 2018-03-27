@@ -5900,6 +5900,9 @@ header {
   position: sticky;
   top: 0px; }
 
+.ui-loader {
+  display: none !important; }
+
 .home-row {
   align-items: center;
   margin-top: 40px;

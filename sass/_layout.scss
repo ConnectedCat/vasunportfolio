@@ -3,6 +3,11 @@ header {
   top: 0px;
 }
 
+//stupid jquerymobile!
+.ui-loader {
+  display: none !important;
+}
+
 .home-row {
     align-items: center;
     margin-top: 40px;
