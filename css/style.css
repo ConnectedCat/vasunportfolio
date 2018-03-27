@@ -5933,6 +5933,10 @@ header {
 .about-section {
   padding-top: 90px; }
 
+@media (max-width: 768px) {
+  .carousel-control-prev, .carousel-control-next {
+    height: 60%; } }
+
 body {
   background-color: #ffffff;
   color: #000000; }

@@ -37,7 +37,7 @@
     <div class="row home-row">
       <div class="col-12">
         
-        <div id="homePageCarousel" class="carousel slide" data-ride="false" data-items="46">
+        <div id="homePageCarousel" class="carousel slide" data-ride="carousel" data-items="46">
           <div class="carousel-inner">
             <div class="carousel-item" data-index="46">
               <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image45.png)"></div>
@@ -73,6 +73,7 @@
   <!-- scripts -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
   <script src="scripts/vendor/bootstrap/collapse.js"></script>
@@ -145,6 +146,13 @@
       }
       
       $('.carousel').on('slid.bs.carousel', lazyLoad);
+
+      $('.carousel').swiperight(function() {
+          $(this).carousel('prev');
+        });
+      $('.carousel').swipeleft(function() {
+          $(this).carousel('next');
+      });
     })
   </script>
 </body>
