@@ -1,0 +1,111 @@
+@import "bootstrap/bootstrap";
+
+@import "colors";
+@import "typography";
+@import "layout";
+
+body {
+  background-color: $background-main;
+  color:            $text-main;
+}
+
+.header-link {
+  position: relative;
+
+  span.animated-header {
+    position: absolute;
+  }
+}
+
+.animated-header-name-hindi {
+  //animation: header-animation-name-hindi  4s infinite;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes header-animation-name-hindi {
+  //0% { visibility: visible; }
+  25% { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  75% { 
+    opacity: 1;
+    visibility: visible;
+  }
+  //75% { visibility: hidden; }
+  25% { 
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.animated-header-name-english {
+  //animation: header-animation-name-english  4s infinite;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes header-animation-name-english {
+  //25% { visibility: visible; }
+  25% { 
+    opacity: 1;
+    visibility: visible;
+  }
+  75% { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  //75% { visibility: visible; }
+  25% { 
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.animated-header-about-hindi {
+  //animation: header-animation-about-hindi  4s infinite;
+  position: absolute;
+  right: 0;
+}
+
+@keyframes header-animation-about-hindi {
+  0% { 
+    opacity: 1;
+    visibility: visible;
+  }
+  //25% { visibility: visible; }
+  50% { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  //75% { visibility: visible; }
+  100% { 
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.animated-header-about-english {
+  //animation: header-animation-about-english 4s infinite;
+  position: absolute;
+  right: 0;
+}
+
+@keyframes header-animation-about-english {
+  0% { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  //25% { visibility: visible; }
+  50% { 
+    opacity: 1;
+    visibility: visible;
+  }
+  //75% { visibility: hidden; }
+  100% { 
+    opacity: 0;
+    visibility: hidden;
+  }
+}
