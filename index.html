@@ -1,160 +1,58 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="A designer and educator with a broad array of collaborators  in the sectors of architecture, culture, non-profit, museum and academia.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <title>Vasun Pachisia</title>
-  <link rel="shortcut icon" href="vasunfavicon.png">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <header class="container">
-    <nav class="row">
-      <div class="col-6">
-        <!-- <a href="index.html" class="header-link float-left"> -->
-        <a href="index.html" title="Vasundhara">
-          <!-- <span class="animated-header-name-hindi">वसुनधारा</span> -->
-          <span >वसुनधारा</span>
-          <!-- <span class="animated-header-name-english">Vasundhara</span> -->
-        </a>
-      </div>
-      
-      <div class="col-6">
-        <!-- <a href="about.html" class="header-link float-right"> -->
-        <a href="about.html" title="About">
-          <!-- <span class="animated-header-about-hindi">अबाउट</span> -->
-          <span class="float-right">अबाउट</span>
-          <!-- <span class="animated-header-about-english">About</span> -->
-        </a>
-      </div>
-    </nav>
-  </header>
-
-  <section class="container">  
-    <div class="row home-row">
-      <div class="col-12">
-        
-        <div id="homePageCarousel" class="carousel slide" data-ride="carousel" data-items="72">
-          <div class="carousel-inner">
-            <div class="carousel-item" data-index="672">
-              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image72.png)"></div>
-            </div>
-                     
-            <div class="carousel-item active" data-index="1">
-              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image1.png)"></div>
-            </div>
-
-            <div class="carousel-item" data-index="2">
-              <div class="carousel__imageholder w-100" style="background-image:url(assets/images/Image2.png)"></div>
-            </div>
-          </div>
-          <!-- carousel controls -->
-          <a class="carousel-control-prev" href="#homePageCarousel" role="button" data-slide="prev">
-            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#homePageCarousel" role="button" data-slide="next">
-            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-            <span class="sr-only">Next</span>
-          </a>
-        </div> <!-- end of #homePageCarousel -->
-
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12 slide-counter"></div>
-    </div>
-  </section>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description"
+      content="A designer and educator with a broad array of collaborators  in the sectors of architecture, culture, non-profit, museum and academia.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Vasun Pachisia</title>
+    <link rel="shortcut icon" href="assets/icons/vasunfavicon.png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
   
-  <!-- scripts -->
+  <body>
+    <header>
+      <nav>
+        <div>
+          <!-- <a href="index.html" class="header-link float-left"> -->
+          <a href="index.html" title="Vasundhara">
+            <!-- <span class="animated-header-name-hindi">वसुनधारा</span> -->
+            <span>वसुनधारा</span>
+            <!-- <span class="animated-header-name-english">Vasundhara</span> -->
+          </a>
+        </div>
+        <div>
+          <!-- <a href="about.html" class="header-link float-right"> -->
+          <a href="about.html" title="About">
+            <!-- <span class="animated-header-about-hindi">अबाउट</span> -->
+            <span>अबाउट</span>
+            <!-- <span class="animated-header-about-english">About</span> -->
+          </a>
+        </div>
+      </nav>
+    </header>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <main class="grid" data-total="72">
 
-  <script src="scripts/vendor/bootstrap/collapse.js"></script>
-  <script src="scripts/vendor/bootstrap/util.js"></script>
-  <script src="scripts/vendor/bootstrap/carousel.js"></script>
+    </main>
 
-  <script>
-    $(document).ready(function(){
-      var carouselItems = $('.carousel').data('items');
-      
-      $('.slide-counter').text("1 of " + carouselItems);
+    <footer></footer>
 
-      var lazyLoad = function(e){
-        var modifyThisSlide, imageToLoadIndex, nextSlideIndex;
+    <script>
+      let totalElems = document.querySelector('main').dataset.total;
+      for(let i = 1; i <= totalElems; i++){
+        let img = document.createElement('img');
+        img.src = "assets/images/Image"+i+".png";
+        img.loading = "lazy";
 
-        if(e.direction == "left") {
-          nextSlideIndex = e.to + 1;
-          if(nextSlideIndex > 2){
-            nextSlideIndex = 0;
-          }
-          modifyThisSlide = $('.carousel-item')[nextSlideIndex];
-          imageToLoadIndex = $($('.carousel-item')[e.to]).data('index') + 1;
-        }
-        if(e.direction == "right") {
-          nextSlideIndex = e.to - 1;
-          if(nextSlideIndex < 0){
-            nextSlideIndex = 2;
-          }
-          modifyThisSlide = $('.carousel-item')[nextSlideIndex];
-          imageToLoadIndex = $($('.carousel-item')[e.to]).data('index') - 1;
-        }
-
-        if(imageToLoadIndex > carouselItems){
-          imageToLoadIndex = 1;
-        }
-        if(imageToLoadIndex < 1){
-          imageToLoadIndex = carouselItems;
-        }
-
-        /// TODO: load video from https://vimeo.com/162983623 for frame 14
-        /// TODO: load video from https://vimeo.com/121959366 for frame 45
-        if(imageToLoadIndex == 20){
-          $(modifyThisSlide).find('.carousel__imageholder').css({
-            'display': 'none',
-          });
-          if(!$(modifyThisSlide).find('.embed-responsive').length){
-            $(modifyThisSlide).append('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/162983623?autoplay=1&loop=1"></iframe></div>');
-          }
-        } 
-        else if (imageToLoadIndex == 44){
-          $(modifyThisSlide).find('.carousel__imageholder').css({
-            'display': 'none',
-          });
-          if(!$(modifyThisSlide).find('.embed-responsive').length){
-            $(modifyThisSlide).append('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/121959366?autoplay=1&loop=1"></iframe></div>');
-          }
-        }
-        else {
-          $('.embed-responsive', modifyThisSlide).remove();
-          $(modifyThisSlide).find('.carousel__imageholder').css({
-            'display': 'block',
-            'background-image': 'url(assets/images/Image' + imageToLoadIndex + '.png)'
-          });
-        }
-
-        $('.slide-counter').text($($('.carousel-item')[e.to]).data('index') + " of " + carouselItems);
-        
-        $(modifyThisSlide).data('index', imageToLoadIndex);
-        $(modifyThisSlide).attr('data-index', imageToLoadIndex);
+        let div = document.createElement('div');
+        div.appendChild(img);
+        document.querySelector('main').appendChild(div);
       }
-      
-      $('.carousel').on('slid.bs.carousel', lazyLoad);
+    </script>
 
-      $('.carousel').swiperight(function() {
-          $(this).carousel('prev');
-        });
-      $('.carousel').swipeleft(function() {
-          $(this).carousel('next');
-      });
-    })
-  </script>
+    <!-- <script src="scripts/imagesloaded.pkgd.min.js"></script>
+    <script src="scripts/masonry-grid.js"></script> -->
 </body>
-
 </html>
