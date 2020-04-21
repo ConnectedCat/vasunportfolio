@@ -74,7 +74,7 @@ main {
 }
 
 .grid section {
-  padding-top: 32px;
+  padding-top: 20px;
 }
 
 .grid img,
@@ -94,23 +94,33 @@ footer {
 
 @media(min-width: 900px) {
 
-  .grid div {
-    display: flex;
-    justify-content: center;
+  .grid section {
+    padding-top: 85px;
   }
 
   .grid section p {
-    margin-top: 6px;
+    margin-top: 20px;
   }
 
-  .two-col img:first-child,
-  .two-col video:first-child {
-    margin-right: 8px;
+  .grid div {
+    display: grid;
+    grid-gap: 15px;
+    align-items: center;
   }
 
-  .two-col img:last-child,
-  .two-col video:last-child {
-    margin-left: 8px;
+  .grid div.two-col {
+    grid-template-columns: auto auto;
+  }
+
+  .grid div.three-col {
+    grid-template-columns: auto auto auto;
+  }
+
+  .grid div.two-col *:first-child {
+    justify-self: end;
+  }
+  .grid div.two-col *:last-child {
+    justify-self: start;
   }
 
   .grid img,
