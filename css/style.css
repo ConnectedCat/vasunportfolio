@@ -90,6 +90,7 @@ footer {
   margin: 72px auto 0px;
   max-width: 1200px;
   text-align: justify;
+  height: calc(100vh - 72px);
 }
 
 @media(min-width: 900px) {
