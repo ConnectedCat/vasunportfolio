@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Khand&display=swap'); */
 
 @font-face {
     font-family: "andale_monoregular";
@@ -6,13 +6,22 @@
         url("../assets/fonts/andale_mono-webfont.woff") format("woff");
     font-style: normal;
     font-weight: normal;
-} */
+}
 
 :root {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: Courier, "andale_monoregular", monospace; */
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 1.5;
     text-align: left;
+    color: #b1b1b1;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #b1b1b1;
 }
