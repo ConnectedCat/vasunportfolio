@@ -33,9 +33,9 @@ header {
 header nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
-  width: 100%;
+  width: calc(100% - 2rem);
   padding-bottom: 10px;
   padding-top: 10px;
   margin-top: -12px;
@@ -43,7 +43,7 @@ header nav {
 }
 
 header nav a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* MAIN */
